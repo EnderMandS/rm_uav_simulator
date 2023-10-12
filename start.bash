@@ -4,6 +4,6 @@ roscore &
 if [ "$RenderOffScreen" -eq "0" ]
 then
     /usr/local/LinuxNoEditor/RMUA.sh seed $Seed
-else  
+else 
     /usr/local/LinuxNoEditor/RMUA.sh -RenderOffscreen seed $Seed
 fi
